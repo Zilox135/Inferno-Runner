@@ -136,7 +136,6 @@
      <Compile Include="Assets\AssetPacks\Standard Assets\Characters\ThirdPersonCharacter\Scripts\AICharacterControl.cs" />
      <Compile Include="Assets\AssetPacks\Standard Assets\Utility\AlphaButtonClickMask.cs" />
      <Compile Include="Assets\AssetPacks\Standard Assets\Utility\FOVKick.cs" />
-     <Compile Include="Assets\Scripts\Audio\AudioSourceManager.cs" />
      <Compile Include="Assets\AssetPacks\Standard Assets\2D\Scripts\Restarter.cs" />
      <Compile Include="Assets\AssetPacks\Standard Assets\2D\Scripts\CameraFollow.cs" />
      <Compile Include="Assets\AssetPacks\Standard Assets\ParticleSystems\Scripts\WaterHoseParticles.cs" />
