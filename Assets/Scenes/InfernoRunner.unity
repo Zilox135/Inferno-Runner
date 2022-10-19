@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.029337421, g: 0.0034533842, b: 0.0013171738, a: 1}
+  m_IndirectSpecularColor: {r: 0.030016642, g: 0.0036190331, b: 0.0014054445, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -215,7 +215,7 @@ Transform:
   m_Children:
   - {fileID: 2043723800}
   m_Father: {fileID: 701815577}
-  m_RootOrder: -1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &642063738
 MonoBehaviour:
@@ -675,7 +675,6 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    serializedVersion: 2
     m_TransformParent: {fileID: 701815577}
     m_Modifications:
     - target: {fileID: 415342368273376649, guid: 2e7379a56c363d44fbeae7c4eb6c41e6, type: 3}
@@ -727,19 +726,17 @@ PrefabInstance:
       value: Lava Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e7379a56c363d44fbeae7c4eb6c41e6, type: 3}
 --- !u!1001 &450884169225156090
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    serializedVersion: 2
     m_TransformParent: {fileID: 642063737}
     m_Modifications:
     - target: {fileID: 450884168534193634, guid: a3cfba395bb92fd48be0505542e89d1f, type: 3}
       propertyPath: m_RootOrder
-      value: -1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 450884168534193634, guid: a3cfba395bb92fd48be0505542e89d1f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -786,14 +783,12 @@ PrefabInstance:
       value: Tile
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: a3cfba395bb92fd48be0505542e89d1f, type: 3}
 --- !u!1001 &5133232303580449830
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 5133232302530326976, guid: e19a7f42933cffc428eda541818efb40, type: 3}
@@ -873,14 +868,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: e19a7f42933cffc428eda541818efb40, type: 3}
 --- !u!1001 &7107430558400417448
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1510687161, guid: b4b0e8240f32c2448a9067dc59d5947a, type: 3}
@@ -960,7 +953,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: b4b0e8240f32c2448a9067dc59d5947a, type: 3}
 --- !u!223 &7107430558400417449 stripped
 Canvas:
@@ -972,7 +964,6 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 6929457291350963076, guid: da5835e54c1745f44a7eef8c44d8111d, type: 3}
@@ -1040,5 +1031,4 @@ PrefabInstance:
       value: Player Controller
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: da5835e54c1745f44a7eef8c44d8111d, type: 3}

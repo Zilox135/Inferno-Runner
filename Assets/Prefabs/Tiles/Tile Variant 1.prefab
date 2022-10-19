@@ -5,7 +5,6 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    serializedVersion: 2
     m_TransformParent: {fileID: 3106307478542378377}
     m_Modifications:
     - target: {fileID: 1048311503537158973, guid: 417b87c41658a084db800738b675407c, type: 3}
@@ -14,7 +13,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1048311503537450845, guid: 417b87c41658a084db800738b675407c, type: 3}
       propertyPath: m_RootOrder
-      value: -1
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1048311503537450845, guid: 417b87c41658a084db800738b675407c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -57,19 +56,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 417b87c41658a084db800738b675407c, type: 3}
---- !u!4 &735326779988359553 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1048311503537450845, guid: 417b87c41658a084db800738b675407c, type: 3}
-  m_PrefabInstance: {fileID: 340089999121159900}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3267940915141644395
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 450884168534193634, guid: a3cfba395bb92fd48be0505542e89d1f, type: 3}
@@ -108,14 +100,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile Variant 1
       objectReference: {fileID: 0}
+    - target: {fileID: 450884168534193646, guid: a3cfba395bb92fd48be0505542e89d1f, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 450884168534193634, guid: a3cfba395bb92fd48be0505542e89d1f, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 735326779988359553}
-    - targetCorrespondingSourceObject: {fileID: 450884168534193634, guid: a3cfba395bb92fd48be0505542e89d1f, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 4935107814930924073}
   m_SourcePrefab: {fileID: 100100000, guid: a3cfba395bb92fd48be0505542e89d1f, type: 3}
 --- !u!1 &3106307478542378373 stripped
 GameObject:
@@ -148,7 +137,6 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    serializedVersion: 2
     m_TransformParent: {fileID: 3106307478542378377}
     m_Modifications:
     - target: {fileID: 2937421669862119445, guid: 5ef0e8f560070ef46bdf4aab13ece63b, type: 3}
@@ -157,7 +145,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2937421669862356021, guid: 5ef0e8f560070ef46bdf4aab13ece63b, type: 3}
       propertyPath: m_RootOrder
-      value: -1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2937421669862356021, guid: 5ef0e8f560070ef46bdf4aab13ece63b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -200,10 +188,4 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ef0e8f560070ef46bdf4aab13ece63b, type: 3}
---- !u!4 &4935107814930924073 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2937421669862356021, guid: 5ef0e8f560070ef46bdf4aab13ece63b, type: 3}
-  m_PrefabInstance: {fileID: 7835936913148638748}
-  m_PrefabAsset: {fileID: 0}

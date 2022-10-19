@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Tile : MonoBehaviour
@@ -16,7 +15,7 @@ public class Tile : MonoBehaviour
 
     private void OnCollisionStay(Collision tile)
     {
-        if (canDamage && tile.gameObject.tag == "Player")
+        if (canDamage && tile.gameObject.CompareTag("Player"))
         {
             StartCoroutine(ProcessDamage());
         }

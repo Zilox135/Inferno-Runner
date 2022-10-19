@@ -9,6 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu.unity
     guid: 84e816908d47f084b86ef86382986dba
   - enabled: 1
-    path: Assets/Scenes/HellRunner.unity
+    path: Assets/Scenes/InfernoRunner.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}

@@ -1,28 +1,24 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class TileCollision : MonoBehaviour
 {
-    [SerializeField] int scoreAmount;
-    [SerializeField] float despawnDelay = 5f;
-    ScoreCounter scoreCounter;
+    [SerializeField] private float despawnDelay = 5f;
+    private ScoreCounter scoreCounter;
+    private bool hasCollided = false;
     
     private void Awake() 
     {
         scoreCounter = FindObjectOfType<ScoreCounter>();
     }
-    
-    private void Start() 
-    {
-        scoreAmount = scoreCounter.Score;
-    }
 
-    private void OnCollisionExit(Collision tile) 
+    private void OnCollisionEnter(Collision collision)
     {
-        if (tile.gameObject.tag == "Player")
+        if (gameObject.CompareTag("Start")) return;
+        
+        if (collision.gameObject.CompareTag("Player") && !hasCollided)
         {
             scoreCounter.IncreaseScore(scoreCounter.ScoreAmount);
+            hasCollided = true; 
             Destroy(gameObject, despawnDelay);
         }
     }
